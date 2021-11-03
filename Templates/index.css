@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Great+Vibes&family=Volkhov:wght@700&display=swap');
+
+.navbar-brand{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    margin-top: -8px;
+    margin-bottom: -15px;
+}
+.svg-icon{
+  width: 50px;
+  height: 50px;
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fdfdfdec;
+}
+.svg-icon circle {
+  stroke: #72c758;
+  stroke-width: 1;
+}
+.carouselExampleIndicators{
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  background-size: cover;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.image{
+  z-index: -1;
+  position: fixed;
+  width:100%;
+}
+.box{
+    border : 1px solid greenyellow;
+    height: 600px;
+    backdrop-filter: blur(10px);
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+  }
+  .in-box{
+    z-index: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 1;
+    filter: blur(0px);
+    
+  }
+ 
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  .switch-field{
+      display:flex;
+      justify-content: center;
+      margin: 0 auto;
+      overflow:hidden;
+  }
+  .switch-field input{
+      position: absolute !important;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      width: 1px;
+      border: 0;
+      margin-left: center;
+      margin-right: center;
+      overflow: hidden;
+  }
+  .switch-field label{
+    background-color: #e0dad0cc;  
+    color:rbga(0,0,0,0.6);
+    font-size: 16x;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(83, 83, 83, 0.3);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.192);
+    transition: all 0.1s ease-in-out;
+  }
+  .switch-field label:hover {
+	cursor: pointer;
+  }
+  .switch-field input:checked + label{
+      background-color: #68d15aea;
+      box-shadow: none;
+  }
+  .switch-field label:first-of-type {
+      border-radius: 4px 0 0 4px;   
+  }
+  .switch-field label:last-of-type {
+      border-radius: 0 4px 4px 0;
+  }
+  .form-select{
+      font-family:monospace;
+    text-transform: capitalize;
+    text-transform: full-width;
+  }
+  .form-label{
+    font-size: 20px;
+    font-family:monospace;
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    text-shadow: 2px 2px rgb(112, 103, 119) ;
+  }
+  .result{
+    background: #bfd2ee;
+    width: 30%;
+    border: 0;
+    margin: 25px 0 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family:'Gill Sans';
+    font-weight: 500;
+    text-shadow: rgb(112, 103, 119);
+    height: 35px;
+    text-align: center;
+}
