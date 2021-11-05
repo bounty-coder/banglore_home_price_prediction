@@ -4,7 +4,7 @@ This data science project series walks through step by step process of how to bu
 - [x] Write a python flask server that uses the saved model to serve http requests. 
 - [x] Build a website in HTML, CSS and JavaScript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. 
 
-During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. 
+During model building I have covered almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. 
 
 Technology and tools wise this project covers, 
 1. Python
